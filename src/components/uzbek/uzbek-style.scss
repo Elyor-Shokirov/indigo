@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "AvenirNextCyr-Bold";
+  src: url("../../assets/fonts/avenirnextcyr-bold.eot");
+  src: url("../../assets/fonts/avenirnextcyr-bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/avenirnextcyr-bold.woff2") format("woff2"),
+    url("../../assets/fonts/avenirnextcyr-bold.woff") format("woff"),
+    url("../../assets/fonts/avenirnextcyr-bold.ttf") format("truetype"),
+    url("../../assets/fonts/avenirnextcyr-bold.svg#avenirnextcyr-bold")
+      format("svg"); /* Chrome < 4, Legacy iOS */
+}
+body {
+  font-family: "AvenirNextCyr-Bold" !important;
+  overflow-x: hidden !important;
+}
+html {
+  overflow-x: auto;
+}
+.MuiTextField-root {
+  width: 48% !important;
+}
+
+.titels_regstrys {
+  .title_regstry {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  p {
+    color: #247774 !important;
+    font-weight: 200 !important;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 28px;
+  }
+}
+.MuiFormLabel-root {
+  font-family: "AvenirNextCyr-Bold" !important;
+  font-size: 23px !important;
+  color: #232323 !important;
+}
+.MuiInputBase-input {
+  padding: 18px 6px 8px !important;
+  font-size: 14px !important;
+  color: #6b6b6b !important;
+  font-family: "AvenirNextCyr-Bold" !important;
+  font-size: 16px !important;
+  color: #525252 !important;
+  padding: 10px 10px;
+}
+.MuiInput-underline:before {
+  border-bottom: 3px solid #ff7300 !important;
+}
+.MuiInput-underline:after {
+  border-bottom: 3px solid #ff7300 !important;
+}
+
+.MuiInputBase-root {
+  margin-right: 50px !important;
+  margin-bottom: 30px;
+}
+.title_parents {
+  color: #247774 !important;
+  font-weight: 200 !important;
+  text-align: center;
+  font-size: 28px;
+}
+.react-tel-input {
+  width: 50% !important;
+  float: right !important;
+  font-family: "AvenirNextCyr-Bold" !important;
+  margin-top: 22px;
+  .form-control {
+    border: 0 !important;
+    border-bottom: 3px solid #ff7300 !important;
+    border-radius: 0 !important;
+    width: 89% !important;
+  }
+  .special-label {
+    display: block !important;
+    font-size: 18px !important;
+    left: 0 !important;
+  }
+}
+.input_your_baby {
+  width: 97% !important;
+}
+.input_our_contact {
+  width: 97% !important;
+}
+.react-tel-input .form-control {
+  padding: 18.5px 12px 2.5px 60px !important;
+}
+.react-tel-input .selected-flag .flag {
+  top: 64% !important;
+  margin-top: -12px !important;
+}
+.button_submit {
+  text-align: center;
+  background-color: #ff7300 !important;
+  border-radius: 30px !important;
+  font-size: 18px !important;
+}
+.submit_button_parent {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .call_center_all_second p {
+    font-size: 9px;
+  }
+  .brand_logo img {
+    width: 75%;
+  }
+  .navbar-brand {
+    width: 64% !important;
+    margin-left: 6px;
+  }
+  .call_center_all_second .call_center {
+    font-size: 11px;
+  }
+  .titels_regstrys .title_regstry {
+    font-size: 16px;
+  }
+  .titels_regstrys p {
+    margin-top: 0;
+    font-size: 14px;
+  }
+  .MuiFormLabel-root {
+    font-size: 18px !important;
+  }
+  .MuiTextField-root {
+    width: 100% !important;
+  }
+  .react-tel-input {
+    width: 98% !important;
+    margin-top: 0;
+    margin-bottom: 13px;
+  }
+  .react-tel-input .special-label {
+    font-size: 14px !important;
+  }
+  .MuiInputBase-input {
+    font-size: 14px !important;
+  }
+  .react-tel-input .form-control {
+    font-size: 11px !important;
+  }
+  .title_parents {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .MuiButton-label {
+    font-size: 12px;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    width: 100% !important;
+  }
+  .justify-content-end {
+    justify-content: flex-start !important;
+  }
+  .navbar-expand .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center !important;
+  }
+  .call_center_all_second {
+    margin-left: 85px;
+  }
+}
