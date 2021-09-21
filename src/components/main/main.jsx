@@ -34,7 +34,7 @@ const Main = () => {
               /> */}
               <div className="main-title">
                 <span className="firs_span_title">OPEN FOR </span>
-                <span className="second_span_title">2021-2022</span>
+                <span className="second_span_title">2021-20221</span>
               </div>
             </div>
           </div>
